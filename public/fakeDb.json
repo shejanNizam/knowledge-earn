@@ -5,15 +5,15 @@
     "author_img": "../src/assets/author/author-1.png",
     "author_name": "Brittany Blake",
     "time": 9,
-    "title": "f9f7cc65-b261-445c-b4a0-303c2e3693cc"
+    "title": "How to get your first job as a self-taught programmer"
   },
   {
     "_id": "6426253cdde90ce73042a4da",
-    "img": "https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=is&k=20&c=xgvy6_sNABoxRUzN-MCGCgVCMai7AeqHdxEPKwi5wLU=",
+    "img": "https://media.istockphoto.com/id/1363276509/photo/teacher-giving-computer-science-lecture-to-diverse-multiethnic-group-of-female-and-male.jpg?s=1024x1024&w=is&k=20&c=H5Dhh4QacrUmdxW7ncdWsB-1Xh1FOx8ivshDh7Y3sJc=",
     "author_img": "../src/assets/author/author-2.png",
     "author_name": "Combs Gilliam",
     "time": 11,
-    "title": "9dc7e106-7106-4f7f-b5be-aa7f8ca86375"
+    "title": "The development and increasing adoption of cloud technologies"
   },
   {
     "_id": "6426253cc43f1d250c8b4f43",
@@ -21,7 +21,7 @@
     "author_img": "../src/assets/author/author-3.png",
     "author_name": "Ferguson Fox",
     "time": 14,
-    "title": "5d78be96-250b-4c91-98dd-752778808d3a"
+    "title": "The rise of DevOps"
   },
   {
     "_id": "6426253c60027ad52f1ae79b",
@@ -29,6 +29,6 @@
     "author_img": "../src/assets/author/author-4.png",
     "author_name": "Hooper Clayton",
     "time": 13,
-    "title": "710bde09-304d-414f-8620-cc8a048c34f3"
+    "title": "The explosion of JavaScript frameworks, libraries, and tools"
   }
 ]
