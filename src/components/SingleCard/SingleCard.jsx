@@ -2,12 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const SingleCard = ({ blog }) => {
+const SingleCard = ({ blog, handleTime, handleBookmark }) => {
   const { img, author_img, author_name, time, title } = blog;
-  console.log(blog);
+
   return (
     <div>
-      <div className="card card-compact w-full bg-base-100 shadow-xl">
+      <div className="card card-compact w-full my-8 bg-base-100 shadow-xl">
         <figure>
           <img src={img} alt="cover_image" />
         </figure>
@@ -26,14 +26,16 @@ const SingleCard = ({ blog }) => {
             </div>
             <div className="flex items-center ">
               <div> {time} min read </div>
-              <button className="ms-2 ">
+              <button onClick={() => handleBookmark()} className="ms-2 ">
                 <FontAwesomeIcon icon={faBookmark} />
               </button>
             </div>
           </div>
           <h2 className="card-title text-3xl">{title}</h2>
           <div className="card-actions justify-start">
-            <button className="btn btn-link">Mark as read</button>
+            <button onClick={() => handleTime(time)} className="btn btn-link">
+              Mark as read
+            </button>
           </div>
         </div>
       </div>
