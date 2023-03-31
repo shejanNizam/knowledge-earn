@@ -18,7 +18,7 @@ const SideCart = ({ cart }) => {
       </h3>
       <ul>
         {cart.map((cartItem) => (
-          <li className="text-center my-4 border-solid border-2 border-indigo-200 rounded-lg h-16 px-4 bg-indigo-200 font-bold">
+          <li className="text-center mx-4 my-4 border-solid border-2 border-indigo-200 rounded-lg h-20 px-4 py-4 bg-indigo-200 font-bold">
             {" "}
             {cartItem.title}{" "}
           </li>

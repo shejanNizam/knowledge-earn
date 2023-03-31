@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { addToDb, getShoppingCart } from "../../utilities/fakedb";
 import SideCart from "../SideCart/SideCart";
 import SingleCard from "../SingleCard/SingleCard";
+import "./Cards.css";
+import { ToastContainer, toast } from "react-toastify";
 
 const Cards = () => {
   const [watchTime, setWatchTime] = useState(0);
@@ -17,6 +19,7 @@ const Cards = () => {
       blog.quantity = 1;
       newCart = [...cart, blog];
     } else {
+      toast("Already Bookmarked!");
       exists.quantity = exists.quantity + 1;
       const remaining = cart.filter((pd) => pd._id !== blog._id);
       newCart = [...remaining, exists];
@@ -57,8 +60,8 @@ const Cards = () => {
   }, [blogs]);
 
   return (
-    <div className="grid grid-cols-6 gap-8">
-      <div className="col-start-1 col-end-5 px-8 py-8">
+    <div className="cards-container">
+      <div className=" px-8 py-8">
         {blogs.map((blog) => (
           <SingleCard
             key={blog._id}
@@ -68,7 +71,7 @@ const Cards = () => {
           ></SingleCard>
         ))}
       </div>
-      <div className="col-start-5 col-end-7 ">
+      <div className="">
         <SideCart watchTime={watchTime} cart={cart}></SideCart>
       </div>
     </div>
