@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
+import author from "../../assets/author/author-1.png";
 
 const SingleCard = ({ blog, handleTime, handleAddToCart }) => {
   // console.log(blog._id);
@@ -15,11 +16,7 @@ const SingleCard = ({ blog, handleTime, handleAddToCart }) => {
         <div className="card-body">
           <div className="flex items-center space-x-96">
             <div className="flex items-center ">
-              <img
-                className="w-12 h-12 me-4"
-                src={author_img}
-                alt="author_image"
-              />
+              <img className="w-12 h-12 me-4" src={author} alt="author_image" />
               <div>
                 <h4 className="font-bold text-xl"> {author_name} </h4>
                 <p>14 May(4 Days ago)</p>
