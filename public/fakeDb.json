@@ -5,7 +5,8 @@
     "author_img": "../src/assets/author/author-1.png",
     "author_name": "Brittany Blake",
     "time": 19,
-    "title": "How to get your first job as a self-taught programmer"
+    "title": "How to get your first job as a self-taught programmer",
+    "quantity": 0
   },
   {
     "_id": "6426253cdde90ce73042a4da",
@@ -13,7 +14,8 @@
     "author_img": "../src/assets/author/author-2.png",
     "author_name": "Combs Gilliam",
     "time": 11,
-    "title": "The development and increasing adoption of cloud technologies"
+    "title": "The development and increasing adoption of cloud technologies",
+    "quantity": 0
   },
   {
     "_id": "6426253cc43f1d250c8b4f43",
@@ -21,7 +23,8 @@
     "author_img": "../src/assets/author/author-3.png",
     "author_name": "Ferguson Fox",
     "time": 14,
-    "title": "The rise of DevOps"
+    "title": "The rise of DevOps",
+    "quantity": 0
   },
   {
     "_id": "6426253c60027ad52f1ae79b",
@@ -29,6 +32,7 @@
     "author_img": "../src/assets/author/author-4.png",
     "author_name": "Hooper Clayton",
     "time": 13,
-    "title": "The explosion of JavaScript frameworks, libraries, and tools"
+    "title": "The explosion of JavaScript frameworks, libraries, and tools",
+    "quantity": 0
   }
 ]

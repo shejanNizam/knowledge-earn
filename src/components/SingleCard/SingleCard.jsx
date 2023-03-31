@@ -2,8 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const SingleCard = ({ blog, handleTime, handleBookmark }) => {
-  const { img, author_img, author_name, time, title } = blog;
+const SingleCard = ({ blog, handleTime, handleAddToCart }) => {
+  // console.log(blog._id);
+  const { _id, img, author_img, author_name, time, title } = blog;
 
   return (
     <div>
@@ -26,7 +27,7 @@ const SingleCard = ({ blog, handleTime, handleBookmark }) => {
             </div>
             <div className="flex items-center ">
               <div> {time} min read </div>
-              <button onClick={() => handleBookmark()} className="ms-2 ">
+              <button onClick={() => handleAddToCart(blog)} className="ms-2 ">
                 <FontAwesomeIcon icon={faBookmark} />
               </button>
             </div>
