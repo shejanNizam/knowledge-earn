@@ -1,32 +1,32 @@
 [
   {
     "_id": "6426253cbcc949aa704ace22",
-    "img": "http://placehold.it/32x32",
-    "author_img": "http://placehold.it/32x32",
+    "img": "https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?s=1024x1024&w=is&k=20&c=kM2FDuKb8KNMQjUn8QEvSmAn3PIX2jE-eDLdbaV_Kw0=",
+    "author_img": "../src/assets/author/author-1.png",
     "author_name": "Brittany Blake",
     "time": 9,
     "title": "f9f7cc65-b261-445c-b4a0-303c2e3693cc"
   },
   {
     "_id": "6426253cdde90ce73042a4da",
-    "img": "http://placehold.it/32x32",
-    "author_img": "http://placehold.it/32x32",
+    "img": "https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=is&k=20&c=xgvy6_sNABoxRUzN-MCGCgVCMai7AeqHdxEPKwi5wLU=",
+    "author_img": "../src/assets/author/author-2.png",
     "author_name": "Combs Gilliam",
     "time": 11,
     "title": "9dc7e106-7106-4f7f-b5be-aa7f8ca86375"
   },
   {
     "_id": "6426253cc43f1d250c8b4f43",
-    "img": "http://placehold.it/32x32",
-    "author_img": "http://placehold.it/32x32",
+    "img": "https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?s=1024x1024&w=is&k=20&c=g9E8s_x8dL5e4oTrOuvgcmX8RhnJ6bo21quMcFVpa6g=",
+    "author_img": "../src/assets/author/author-3.png",
     "author_name": "Ferguson Fox",
     "time": 14,
     "title": "5d78be96-250b-4c91-98dd-752778808d3a"
   },
   {
     "_id": "6426253c60027ad52f1ae79b",
-    "img": "http://placehold.it/32x32",
-    "author_img": "http://placehold.it/32x32",
+    "img": "https://media.istockphoto.com/id/1394627722/photo/booking-meeting-calendar-appointment.jpg?s=1024x1024&w=is&k=20&c=oZVvXHT8WRkKvfCxl75pfjIt6VNnxywZfh4xvHICbco=",
+    "author_img": "../src/assets/author/author-4.png",
     "author_name": "Hooper Clayton",
     "time": 13,
     "title": "710bde09-304d-414f-8620-cc8a048c34f3"
