@@ -15,7 +15,7 @@ const Header = () => {
             <a className="ps-4" href="/about">
               About
             </a>
-            <a className="ps-4" href="/blogs">
+            <a className="ps-4" href="/blogs.html">
               Blogs
             </a>
             <a className="ps-4" href="/login">
