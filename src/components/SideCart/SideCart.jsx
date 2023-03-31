@@ -11,7 +11,8 @@ const SideCart = ({ cart }) => {
   return (
     <div className=" my-8 sticky top-0 px-4">
       <h4 className="text-center text-2xl text-primary font-semibold border-collapse ">
-        Spent time on read : <span className="font-bold ">{watchTime}</span> min
+        Spent time on read : <span className="font-bold ">{watchTime}</span>{" "}
+        mins
       </h4>
       <h3 className="mt-16 text-2xl font-bold">
         Bookmarked Blogs : {quantity}{" "}

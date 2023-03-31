@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { addToDb, getShoppingCart } from "../../utilities/fakedb";
+import { addToDb, getBookMarkCart } from "../../utilities/fakedb";
 import SideCart from "../SideCart/SideCart";
 import SingleCard from "../SingleCard/SingleCard";
 import "./Cards.css";
@@ -45,7 +45,7 @@ const Cards = () => {
   }, []);
 
   useEffect(() => {
-    const storedCart = getShoppingCart();
+    const storedCart = getBookMarkCart();
     let savedCart = [];
     for (const id in storedCart) {
       const addedProduct = blogs.find((blog) => blog._id === id);
