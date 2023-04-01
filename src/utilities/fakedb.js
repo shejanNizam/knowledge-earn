@@ -9,14 +9,14 @@ const addToDb = (_id) => {
     const newQuantity = quantity + 1;
     bookMarkCart[_id] = newQuantity;
   }
-  localStorage.setItem("shopping-cart", JSON.stringify(bookMarkCart));
+  localStorage.setItem("bookMarked", JSON.stringify(bookMarkCart));
 };
 
 const removeFromDb = (_id) => {
   const shoppingCart = getBookMarkCart();
   if (_id in shoppingCart) {
     delete shoppingCart[_id];
-    localStorage.setItem("shopping-cart", JSON.stringify(shoppingCart));
+    localStorage.setItem("bookMarked", JSON.stringify(shoppingCart));
   }
 };
 
@@ -24,7 +24,7 @@ const getBookMarkCart = () => {
   let shoppingCart = {};
 
   //get the shopping cart from local storage
-  const storedCart = localStorage.getItem("shopping-cart");
+  const storedCart = localStorage.getItem("bookMarked");
   if (storedCart) {
     shoppingCart = JSON.parse(storedCart);
   }
@@ -32,7 +32,7 @@ const getBookMarkCart = () => {
 };
 
 const deleteShoppingCart = () => {
-  localStorage.removeItem("shopping-cart");
+  localStorage.removeItem("bookMarked");
 };
 
 export { addToDb, removeFromDb, getBookMarkCart, deleteShoppingCart };
