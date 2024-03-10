@@ -1,10 +1,10 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import { addToDb, getBookMarkCart } from "../../utilities/fakedb";
 import SideCart from "../SideCart/SideCart";
 import SingleCard from "../SingleCard/SingleCard";
 import "./Cards.css";
-import { ToastContainer, toast } from "react-toastify";
 
 const Cards = () => {
   const [watchTime, setWatchTime] = useState(0);

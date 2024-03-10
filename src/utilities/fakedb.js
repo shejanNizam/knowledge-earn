@@ -35,4 +35,4 @@ const deleteShoppingCart = () => {
   localStorage.removeItem("bookMarked");
 };
 
-export { addToDb, removeFromDb, getBookMarkCart, deleteShoppingCart };
+export { addToDb, deleteShoppingCart, getBookMarkCart, removeFromDb };
